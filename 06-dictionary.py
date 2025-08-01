@@ -60,3 +60,6 @@ if "email" in person:
 # ❓ Getting a value with a default
 phone = person.get("phone", "Not available")
 print("📞 Phone:", phone)
+
+
+print(person.items())
