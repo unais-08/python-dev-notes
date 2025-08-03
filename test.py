@@ -1,17 +1,16 @@
-super_heroes = [
-    "Superman",
-    "Batman",
-    "Wonder Woman",
-    "Spider-Man",
-    "Iron Man",
-    "Captain America",
-    "Black Panther",
-    "Thor",
-    "Hulk",
-    "Flash",
-]
+def greeting(greet):
+    print(f"Good {greet}")
 
-# print(super_heroes)
-for hero in super_heroes:
-    print(hero)
-print('exit')
+
+greeting("Morning")
+
+
+def calculate_sum(*args):
+    initial_sum = 0
+    for item in args:
+        initial_sum += item
+    return initial_sum
+
+
+result = calculate_sum(1, 2, 3, 4, 5)
+print(result)
