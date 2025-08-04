@@ -1,3 +1,7 @@
-with open("./11-sample.txt") as f:
-    for line in f:
-        print(f"{line.strip()}")
+try:
+    number = int(input("enter the number: "))
+    print(10 / number)
+except ZeroDivisionError:
+    print("cannot divide by zero")
+except Exception:
+    print("something went wrong")
