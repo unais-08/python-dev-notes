@@ -25,3 +25,15 @@ try:
     )
 except requests.exceptions.RequestException as e:
     print(f"Error fetching weather data: {e}")
+
+
+url = "https://json-placeholder.mock.beeceptor.com/posts/1"
+try:
+    resp = requests.get(url)
+    resp.raise_for_status()
+    data = resp.json()
+    print(data.get("title", "No title found"))
+except requests.exceptions.RequestException as e:
+    print(f"Request failed: {e}")
+except ValueError:
+    print("Response content is not valid JSON.")
