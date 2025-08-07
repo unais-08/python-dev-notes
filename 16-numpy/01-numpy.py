@@ -1,5 +1,7 @@
 import numpy as np
 
+# Basic of NumPy
+
 print("NumPy version:", np.__version__)
 
 # Create arrays of different dimensions

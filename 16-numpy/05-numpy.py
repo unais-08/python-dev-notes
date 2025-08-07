@@ -1,5 +1,7 @@
 import numpy as np
 
+# NumPy: Basic Operations and Array Reshaping
+
 # Create two numpy arrays
 a = np.array([1, 2, 3])
 b = np.array([4, 5, 6])
@@ -13,7 +15,7 @@ product_ab = a * b
 print("a * b =", product_ab)  # [4 10 18]
 
 # Element-wise exponentiation
-a_squared = a ** 2
+a_squared = a**2
 print("a squared =", a_squared)  # [1 4 9]
 
 # Square root of each element in a
@@ -31,3 +33,15 @@ print("mean(a) =", mean_a)  # 2.0
 # Maximum value in a
 max_a = np.max(a)
 print("max(a) =", max_a)  # 3
+
+
+# Array Reshaping
+
+marks = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9])
+marks_reshaped = marks.reshape(3, 3)
+print("Reshaped array:")
+print(marks_reshaped)
+print(marks_reshaped.ndim)  # Output: 2
+
+marks_reshaped.flatten()  # Flatten the array to 1D
+print("Flattened array:", marks_reshaped.flatten())
