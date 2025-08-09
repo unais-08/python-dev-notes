@@ -1,0 +1,11 @@
+OrderID,Product,Category,Quantity,Price,City,Date
+1001,Book,Stationery,2,150,Mumbai,2025-01-10
+1002,Pen,Stationery,5,20,Delhi,2025-01-12
+1003,Notebook,Stationery,3,60,Bangalore,2025-01-15
+1004,Headphones,Electronics,1,1200,Delhi,2025-01-18
+1005,Keyboard,Electronics,2,800,Mumbai,2025-01-20
+1006,Book,Stationery,1,150,Delhi,2025-01-22
+1007,Mouse,Electronics,4,500,Bangalore,2025-01-25
+1008,Pencil,Stationery,10,10,Mumbai,2025-01-28
+1009,Charger,Electronics,2,400,Delhi,2025-01-30
+1010,Book,Stationery,3,150,Delhi,2025-02-02
