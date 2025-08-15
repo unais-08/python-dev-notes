@@ -1,0 +1,11 @@
+employee_id,first_name,last_name,department,salary,join_date
+101,John,Doe,HR,60000,2021-01-15
+102,Jane,Smith,Engineering,85000,2019-05-20
+103,Peter,Jones,,62000,2021-08-10
+104,Mary,Williams,Sales,,2020-03-22
+105,David,Brown,Engineering,90000,
+106,Emily,Davis,Sales,78000,2020-07-11
+107,Michael,Miller,Engineering,92000,2017-02-28
+108,Sarah,Wilson,HR,65000,2022-04-05
+109,Chris,Evans,HR,80000,
+110,Anna,Lee,,75000,2020-10-10

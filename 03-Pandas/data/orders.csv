@@ -1,0 +1,7 @@
+OrderID,CustomerID,Product,Amount
+101,1,Laptop,70000
+102,2,Phone,25000
+103,1,Tablet,30000
+104,5,Monitor,15000
+105,6,Keyboard,3000
+106,7,Mouse,1200
